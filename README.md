@@ -2,7 +2,7 @@
 
 Use it to choose from giveaway winner YouTube video comments.
 
-🌎 [Site](https://github.com/ctechhindi/YouTube-Comment-Picker)
+🌎 [Open Site](https://yt-rcp.netlify.app)
 
 ## Using Libraries
 
@@ -10,7 +10,7 @@ Use it to choose from giveaway winner YouTube video comments.
 | ------------ | ------- | --- |
 | [Vue CLI](https://cli.vuejs.org/) | 4.3.1 | `npm install -g @vue/cli` |
 | [Buefy](https://buefy.org/) | 0.8.15 | `npm install buefy` |
-| [icofont]https://icofont.com/icons) | 1.0.1 | `Vender` |
+| [icofont](https://icofont.com/icons) | 1.0.1 | `Vender` |
 | [vue-analytics](https://github.com/MatteoGabriele/vue-analytics) | 5.22.1 | `npm install vue-analytics` |
 | [axios](https://github.com/axios/axios) | 0.19.2 | `npm install axios` |
 | [Numeral-js](https://github.com/adamwdraper/Numeral-js) | 2.0.6 | `npm install numeral` |
