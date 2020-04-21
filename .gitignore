@@ -18,3 +18,12 @@ yarn-error.log*
 *.njsproj
 *.sln
 *.sw?
+
+# src/components/ 
+src/components/Winner.vue
+src/components/Footer.vue
+src/main.js
+src/appInfo.js
+public/manifest.json
+public/robots.txt
+public/index.html

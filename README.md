@@ -4,20 +4,27 @@ Use it to choose from giveaway winner YouTube video comments.
 
 🌎 [Open Site](https://yt-rcp.netlify.app)
 
+## Features
+
+- Selecting a random comment from one of the YouTube video comments.
+- Picking random winner from video comments.
+- Generating SVG and QR codes to the winner's data.
+- Sharing the winner's data on Social Media Account.
+
 ## Using Libraries
 
 | Library Name | Version | NPM |
 | ------------ | ------- | --- |
 | [Vue CLI](https://cli.vuejs.org/) | 4.3.1 | `npm install -g @vue/cli` |
 | [Buefy](https://buefy.org/) | 0.8.15 | `npm install buefy` |
-| [icofont](https://icofont.com/icons) | 1.0.1 | `Vender` |
+| [materialdesignicons](https://materialdesignicons.com) | 5.1.45 | `Vender` |
 | [vue-analytics](https://github.com/MatteoGabriele/vue-analytics) | 5.22.1 | `npm install vue-analytics` |
 | [axios](https://github.com/axios/axios) | 0.19.2 | `npm install axios` |
 | [Numeral-js](https://github.com/adamwdraper/Numeral-js) | 2.0.6 | `npm install numeral` |
 | [download-js](https://github.com/rndme/download) | 1.4.7 | `npm install downloadjs` |
 | [vue-qrcode](https://github.com/fengyuanchen/vue-qrcode) | 1.0.2 | `npm install @chenfengyuan/vue-qrcode vue` |
 | [vue-social-sharing](https://github.com/nicolasbeauvais/vue-social-sharing) | 2.4.7 | `npm install --save vue-social-sharing` |
-| [dexie](https://github.com/dfahlander/Dexie.js) | 2.0.4 | `npm install dexie` |
+| [dexie](https://github.com/dfahlander/Dexie.js) | Required `2.0.1` | `npm install dexie` |
 | [vue-clipboards](https://github.com/zhuowenli/vue-clipboards) | 1.3.0 | `npm install vue-clipboards` |
 | [vue-progressbar](http://hilongjw.github.io/vue-progressbar/index.html) | 0.7.5 | `npm install vue-progressbar` |
 | [random-js](https://github.com/ckknight/random-js) | 2.1.0 | `npm install random-js` |
@@ -51,6 +58,12 @@ npm run build
 
 * New Design
 * Upgrade Library
+
+## Other Projects
+
+* https://youtube-cm2.netlify.app/#/
+* https://youtubeblade.netlify.app/#/
+* https://speedtyping.in/
 
 ## Reporting Issues ☢️
 

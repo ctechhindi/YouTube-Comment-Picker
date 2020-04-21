@@ -1,5 +1,6 @@
 {
   "name": "youtube-comment-picker",
+  "productName": "Youtube Comment Picker V3",
   "description": "Use it to choose from giveaway winner YouTube video comments.",
   "version": "3.0.0",
   "private": false,
@@ -8,6 +9,21 @@
     "email": "jeevan15498@gmail.com",
     "url": "https://jeevan15498.github.io"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ctechhindi/YouTube-Comment-Picker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ctechhindi/YouTube-Comment-Picker/issues"
+  },
+  "homepage": "https://yt-rcp.netlify.app",
+  "license": "MIT",
+  "copyright": "C Tech Hindi",
+  "copyrightURL": "http://ctechhindi.in/",
+  "keywords": [
+    "youtube",
+    "youtube-comment-picker"
+  ],
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -18,7 +34,7 @@
     "axios": "^0.19.2",
     "buefy": "^0.8.15",
     "core-js": "^3.6.4",
-    "dexie": "^2.0.4",
+    "dexie": "^2.0.1",
     "downloadjs": "^1.4.7",
     "lodash": "^4.17.15",
     "numeral": "^2.0.6",

@@ -1,45 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <link rel="shortcut icon" href="<%= BASE_URL %>favicon.ico" />
-    <title>YouTube Random Comment Picker V3</title>
 
-    <meta name="google-site-verification" content="" />
-    <link rel="alternate" hreflang="en-us" href="#">
-    <meta name="robots" content="index, follow">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+  <link rel="shortcut icon" href="<%= BASE_URL %>favicon.ico" />
+  <title>YouTube Random Comment Picker V3</title>
 
-    <meta name="description" content="Video Giveaway Winners Choose, YouTube Video Random Comment Picker is a free tool for youtube to take a random comment from youtube. In which we save the winner in the local database. Save winner information in svg image and qrcode. and more. Youtube Video Giveaway Winners Chooice. youtube.com Video Giveaway Winners Chooie. giveaway videos youtube ">
-    <meta name="keywords" content="youtube,random,comments,picker,free,tool,save,image,svg,winner,giveaway,youtube giveaway,youtube video giveaway,video giveaway winners chooic,youtube.com Video Giveaway Winners Chooie, giveaway videos youtube">
-    <meta name="author" content="Jeevan Lal">
+  <meta name="google-site-verification" content="" />
+  <link rel="alternate" hreflang="en-us" href="https://yt-rcp.netlify.app">
+  <meta name="robots" content="index, follow">
 
-    <meta property="og:type" content="website"/>
-    <meta property="og:url" content="#"/>
-    <meta property="og:title" content="YouTube Video Random Comment Picker">
-    <meta property="og:site_name" content="#" />
-    <meta property="og:description" content="Video Giveaway Winners Choose, YouTube Video Random Comment Picker is a free tool for youtube to take a random comment from youtube. In which we save the winner in the local database. Save winner information in svg image and qrcode. and more. Youtube Video Giveaway Winners Chooice. youtube.com Video Giveaway Winners Chooie. giveaway videos youtube "/>
-    <meta content='#' property='og:image'/>
-    <meta property="og:publisher" content="Jeevan Lal">
-    <meta property="og:image" content="#"/>
+  <meta name="description"
+    content="Video Giveaway Winners Choose, YouTube Video Random Comment Picker is a free tool for youtube to take a random comment from youtube. In which we save the winner in the local database. Save winner information in svg image and qrcode. and more. Youtube Video Giveaway Winners Chooice. youtube.com Video Giveaway Winners Chooie. giveaway videos youtube ">
+  <meta name="keywords"
+    content="youtube,random,comments,picker,free,tool,save,image,svg,winner,giveaway,youtube giveaway,youtube video giveaway,video giveaway winners chooic,youtube.com Video Giveaway Winners Chooie, giveaway videos youtube">
+  <meta name="author" content="Jeevan Lal">
 
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="YouTube Video Random Comment Picker" />
-    <meta name="twitter:description" content="Video Giveaway Winners Choose, YouTube Video Random Comment Picker is a free tool for youtube to take a random comment from youtube. In which we save the winner in the local database. Save winner information in svg image and qrcode. and more. Youtube Video Giveaway Winners Chooice. youtube.com Video Giveaway Winners Chooie. giveaway videos youtube "/>
-    <meta name="twitter:image" content="#"/>
-    <meta name="twitter:site" content="@ctechindi">
-    <meta name="twitter:creator" content="@ctechindi">
-    
-    <link rel="stylesheet" href="//cdn.materialdesignicons.com/5.1.45/css/materialdesignicons.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-  </head>
-  <body>
-    <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
-  </body>
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://yt-rcp.netlify.app" />
+  <meta property="og:title" content="YouTube Video Random Comment Picker">
+  <meta property="og:site_name" content="yt-rcp.netlify.app" />
+  <meta property="og:description"
+    content="Video Giveaway Winners Choose, YouTube Video Random Comment Picker is a free tool for youtube to take a random comment from youtube. In which we save the winner in the local database. Save winner information in svg image and qrcode. and more. Youtube Video Giveaway Winners Chooice. youtube.com Video Giveaway Winners Chooie. giveaway videos youtube " />
+  <meta property="og:publisher" content="Jeevan Lal">
+  <meta property="og:image" content="https://yt-rcp.netlify.app/img/icons/android-chrome-512x512.png" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="YouTube Video Random Comment Picker" />
+  <meta name="twitter:description"
+    content="Video Giveaway Winners Choose, YouTube Video Random Comment Picker is a free tool for youtube to take a random comment from youtube. In which we save the winner in the local database. Save winner information in svg image and qrcode. and more. Youtube Video Giveaway Winners Chooice. youtube.com Video Giveaway Winners Chooie. giveaway videos youtube " />
+  <meta name="twitter:image" content="https://yt-rcp.netlify.app/img/icons/android-chrome-512x512.png" />
+  <meta name="twitter:site" content="@ctechindi">
+  <meta name="twitter:creator" content="@ctechindi">
+
+  <link rel="stylesheet" href="//cdn.materialdesignicons.com/5.1.45/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+  <script type="application/ld+json">
+    { "@context": "https://schema.org/", "@type": "WebSite", "name": "YouTube Comment Picker", "url": "https://yt-rcp.netlify.app" }
+  </script>
+</head>
+
+<body>
+  <noscript>
+    <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled.
+      Please enable it to continue.</strong>
+  </noscript>
+  <div id="app"></div>
+  <!-- built files will be auto injected -->
+</body>
+
 </html>
