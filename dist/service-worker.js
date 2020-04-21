@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.f6ca2e33a248a847bd875e0867fa5c63.js"
+  "/precache-manifest.0d567fd245054294a7eed7ba9f9f372c.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "youtube-comment-picker"});

@@ -2,7 +2,14 @@
 
 Use it to choose from giveaway winner YouTube video comments.
 
-🌎 [Open Site](https://yt-rcp.netlify.app)
+[![GitHub stars](https://img.shields.io/github/stars/ctechhindi/YouTube-Comment-Picker)](https://github.com/ctechhindi/YouTube-Comment-Picker/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/ctechhindi/YouTube-Comment-Picker)](https://github.com/ctechhindi/YouTube-Comment-Picker/network)
+[![GitHub issues](https://img.shields.io/github/issues/ctechhindi/YouTube-Comment-Picker)](https://github.com/ctechhindi/YouTube-Comment-Picker/issues)
+[![HitCount](http://hits.dwyl.com/ctechhindi/YouTube-Comment-Picker.svg)](http://hits.dwyl.com/ctechhindi/YouTube-Comment-Picker)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/ctechhindi/YouTube-Comment-Picker/issues)
+
+
+## 🌎 [Open Site](https://yt-rcp.netlify.app)
 
 ## Features
 
@@ -10,6 +17,19 @@ Use it to choose from giveaway winner YouTube video comments.
 - Picking random winner from video comments.
 - Generating SVG and QR codes to the winner's data.
 - Sharing the winner's data on Social Media Account.
+- Comment Picker you can `Play` and `Pause` according to your need.
+- YouTube Video and winner's data are saved in the Browser Local Storage (IndexedDB).
+- Our Project's `API` runs Multi Request at a time which gives us `Super Speed`.
+
+## Screenshot
+
+![Home Page](public/img/screenshot/screenshot-1.PNG)
+
+![Load Video Comments](public/img/screenshot/screenshot-2.PNG)
+
+![Choose Winner](public/img/screenshot/screenshot-3.PNG)
+
+![Winner History](public/img/screenshot/screenshot-4.PNG)
 
 ## Using Libraries
 

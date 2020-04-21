@@ -179,7 +179,7 @@ import Winner from "@/components/Winner";
 export default {
   name: "Picker",
   components: {
-    winners: Winner,
+    winners: Winner
   },
   metaInfo: {
     title: "Comment Picker",
@@ -235,6 +235,11 @@ export default {
       winnerData: {},
       winnerTemplate: false,
       refreshWinnerTemplate: 0, // Reload Winner Template
+      api: {
+        baseURL: "https://yt.ctechhindi.in", // https://youtubeapis.000webhostapp.com,
+        videoInfo: "/api/youtube-video-info-v2.php",
+        videoComment: "/api/youtube-video-comments-v3.2.php"
+      }
     };
   },
   methods: {
@@ -357,14 +362,11 @@ export default {
       this.videoFetchLoading = false;
 
       axios
-        .get(
-          "https://youtubeapis.000webhostapp.com/api/youtube-video-info-v2.php",
-          {
-            params: {
-              id: this.video.id
-            }
+        .get(that.api.baseURL + "" + that.api.videoInfo, {
+          params: {
+            id: this.video.id
           }
-        )
+        })
         .then(function(response) {
           if (response.data.status === true) {
             var data = response.data.data;
@@ -472,15 +474,12 @@ export default {
         });
 
         axios
-          .get(
-            "https://youtubeapis.000webhostapp.com/api/youtube-video-comments-v3.2.php",
-            {
-              params: {
-                videoId: this.video.id,
-                token: this.comment.nextPageToken
-              }
+          .get(that.api.baseURL + "" + that.api.videoComment, {
+            params: {
+              videoId: this.video.id,
+              token: this.comment.nextPageToken
             }
-          )
+          })
           .then(function(resp) {
             var result = resp.data;
 
@@ -925,20 +924,20 @@ export default {
           // Video Information
           videoTitle: video.title,
           videoThumbnail: video.image,
-          videoUrl: video.url,
+          videoUrl: video.url
         };
 
         this.winnerData = winnerData;
 
         // Reload Winner Template
-        this.refreshWinnerTemplate = (this.refreshWinnerTemplate + 1);
+        this.refreshWinnerTemplate = this.refreshWinnerTemplate + 1;
 
         // Show Winner Template
         this.winnerTemplate = true;
 
         // Page Scroll to Bottom
         setTimeout(() => {
-          window.scrollBy(0, window.screen.height)
+          window.scrollBy(0, window.screen.height);
         }, 100);
       }
     },
@@ -1004,7 +1003,7 @@ export default {
     this.init();
   },
   mounted() {
-    this.$Progress.finish()
-  },
+    this.$Progress.finish();
+  }
 };
 </script>
