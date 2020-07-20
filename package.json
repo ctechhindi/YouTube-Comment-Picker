@@ -36,7 +36,7 @@
     "core-js": "^3.6.4",
     "dexie": "^2.0.1",
     "downloadjs": "^1.4.7",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "numeral": "^2.0.6",
     "random-js": "^2.1.0",
     "register-service-worker": "^1.7.1",
